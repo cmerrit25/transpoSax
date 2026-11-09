@@ -1,0 +1,11 @@
+music21>=9.1
+librosa>=0.10
+soundfile
+scipy
+imageio-ffmpeg   # bundled ffmpeg, no system install needed
+yt-dlp           # YouTube download
+spotdl>=4.2      # Spotify link -> matching YouTube audio
+pytest>=8
+
+# Optional, for --isolate (pulls in PyTorch, ~1 GB):
+# demucs
